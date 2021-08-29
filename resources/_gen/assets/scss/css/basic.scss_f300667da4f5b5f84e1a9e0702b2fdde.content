@@ -233,17 +233,3 @@ summary {
 /* Make hidden attribute compatible with old browser.*/
 [hidden] {
   display: none !important; }
-
-img[src$='#center'] {
-  display: block !important;
-  margin: 0.7rem auto !important;
-  /* you can replace the vertical '0.7rem' by
-                            whatever floats your boat, but keep the
-                            horizontal 'auto' for this to work */
-  /* whatever else styles you fancy here */ }
-
-.caption {
-  font-style: italic;
-  font-size: 2rem;
-  display: flex;
-  justify-content: center; }
