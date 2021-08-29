@@ -18,7 +18,7 @@ After an initial examination, it was clear that while the geometry was simple en
 # The solution
 To start, I decided to first model the part and worry about the structural concerns later on, and so I went to work, meticulously measuring the dimensions with a cheap set of digital calipers and making a rough sketch of all the features. All of this fit on a single 3x5 inch index card, which you can see below. The whole process was HIGHLY scientific.
 
-Once this was done, I moved on to modeling the part in OnShape. This was fairly straightforward, and you can see the steps in the gallery below. I won’t go into too much detail on how this was done as the pictures should be self-explanatory. The whole process of measuring and modeling took me about an hour.
+Once this was done, I moved on to modeling the part in OnShape. This was fairly straightforward, and you can see the steps in screenshot below. I won’t go into too much detail on how this was done as the pictures should be self-explanatory. The whole process of measuring and modeling took me about an hour.
 
 ![broken part](/static/p1-onshape.jpg#center "New part in OnShape")
 <figcaption class="caption">The part measured and modeled.</figcaption>
