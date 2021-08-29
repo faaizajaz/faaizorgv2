@@ -1,0 +1,32 @@
+{{ define "main" }}
+    <main aria-role="main" id="main">
+      <div class="container has-padding">
+        <div class="article-card post single">
+      <h1 class="homepage-header">
+        <h1>{{.Title}}</h1>
+        {{ with .Params.subtitle }}
+        <span class="subtitle">{{.}}</span>
+        {{ end }}
+      </h1>
+      <div class="homepage-content">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{.Content}}
+      </div>
+      <div>
+        {{ range first 10 .Site.RegularPages }}
+            {{ .Render "summary"}}
+        {{ end }}
+      </div>
+      </div>
+      </div>
+    </main>
+    <style>
+    [title="about"] > span {
+      
+      
+      border-bottom: 2px solid !important;
+      border-color: white !important;
+    }
+  </style>
+
+{{ end }}

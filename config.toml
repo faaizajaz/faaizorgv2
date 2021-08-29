@@ -1,0 +1,34 @@
+baseURL = ""
+relativeURLs = "True"
+languageCode = 'en-us'
+title = 'Faaiz Ajaz'
+theme = "fluency"
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
+# [params]
+# mainSections = [ "about" ]
+
+[[menu.main]]
+identifier = "about"
+name = "about"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "blog"
+name = "blog"
+url = "blog/"
+weight = 2
+
+
+[[menu.main]]
+identifier = "wiki"
+name = "wiki"
+url = "wiki/"
+weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

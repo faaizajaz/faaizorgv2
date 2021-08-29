@@ -1,0 +1,1376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"currentProec",
+				"currentProjectLevels"
+			],
+			[
+				"Indic",
+				"IndicatorItem"
+			],
+			[
+				"currentProj",
+				"currentProjectLevels"
+			],
+			[
+				"Indicator",
+				"IndicatorAddForm"
+			],
+			[
+				"Indi",
+				"IndicatorAddForm"
+			],
+			[
+				"trans",
+				"transition-group"
+			],
+			[
+				"transiti",
+				"transition-group"
+			],
+			[
+				"curren",
+				"currentProjectLevels"
+			],
+			[
+				"back",
+				"backgroundColor"
+			],
+			[
+				"project",
+				"projectState"
+			],
+			[
+				"proje",
+				"projectState"
+			],
+			[
+				"setFla",
+				"setFlatProjectItemsLoaded"
+			],
+			[
+				"flat",
+				"flatProjectItemsIsLoaded"
+			],
+			[
+				"unser",
+				"unsetFlatProjectItems"
+			],
+			[
+				"unsert",
+				"unsetFlatProjectItems"
+			],
+			[
+				"Organizati",
+				"OrganizationView"
+			],
+			[
+				"setCurr",
+				"setCurrentColor"
+			],
+			[
+				"thi",
+				"this.$notify"
+			],
+			[
+				"TeamMem",
+				"TeamMemberAddButtonSet"
+			],
+			[
+				"User",
+				"UserAddIcon"
+			],
+			[
+				"Tea",
+				"TeamMemberActionPanel"
+			],
+			[
+				"TeamM",
+				"TeamMemberActionPanel"
+			],
+			[
+				"Team",
+				"TeamMemberActionPanel"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"TeamBa",
+				"TeamMemberItemBadge"
+			],
+			[
+				"cle",
+				"clearAllOrgMembers"
+			],
+			[
+				"Pro",
+				"projectState"
+			],
+			[
+				"projec",
+				"projectState"
+			],
+			[
+				"currentOwnRe",
+				"currentProjectOwnersReporters"
+			],
+			[
+				"currentPo",
+				"currentProjectOwnersReporters"
+			],
+			[
+				"conso",
+				"console.log("
+			],
+			[
+				"currentProjectOw",
+				"currentProjectOwnersReporters"
+			],
+			[
+				"currentProjectOwne",
+				"currentProjectOwnersReporters"
+			],
+			[
+				"currentProjectOwners",
+				"currentProjectOwnersReporters"
+			],
+			[
+				"currentProjectOen",
+				"currentProjectOwnersReporters"
+			],
+			[
+				"current",
+				"currentProject"
+			],
+			[
+				"currentPr",
+				"currentProjectOwnersReporters"
+			],
+			[
+				"currentProjectOwn",
+				"currentProjectOwnersReporters"
+			],
+			[
+				"cur",
+				"currentProject"
+			],
+			[
+				"currn",
+				"currentProjectOwnersReporters"
+			],
+			[
+				"curre",
+				"currentProjectOwners"
+			],
+			[
+				"currentProject",
+				"currentProjectOwnersReporters"
+			],
+			[
+				"curent",
+				"currentUser"
+			],
+			[
+				"user",
+				"username}}"
+			],
+			[
+				"state",
+				"state.currentUser ="
+			],
+			[
+				"compu",
+				"computed"
+			],
+			[
+				"check",
+				"checkIfOwner"
+			],
+			[
+				"all",
+				"allOrgMembers"
+			],
+			[
+				"clearCu",
+				"clearCurrentProject"
+			],
+			[
+				"curr",
+				"currentProjectClone"
+			],
+			[
+				"Proe",
+				"ProjectItemNestedDraggable"
+			],
+			[
+				"ProjectItem",
+				"ProjectItemNestedDraggable"
+			],
+			[
+				"overflow-",
+				"overflow-y-auto"
+			],
+			[
+				"overflow",
+				"overflow-y-auto"
+			],
+			[
+				"overfl",
+				"overflow-y-auto"
+			],
+			[
+				"overflo",
+				"overflow-y-auto"
+			],
+			[
+				"Auth",
+				"AuthSignedOut"
+			],
+			[
+				"Menu",
+				"MenuIcon"
+			],
+			[
+				"ProjectLeveCo",
+				"ProjectLevelColorPicker"
+			],
+			[
+				"proj",
+				"projectState"
+			],
+			[
+				"Project",
+				"ProjectLevelItem"
+			],
+			[
+				"NavIconNotification",
+				"NavIconNotificationWithDropdown"
+			],
+			[
+				"NavOc",
+				"NavIconWithDropdown"
+			],
+			[
+				"Proj",
+				"ProjectItem"
+			],
+			[
+				"Data",
+				"DatabaseIcon"
+			],
+			[
+				"unsetActi",
+				"unsetActiveItemKey"
+			],
+			[
+				"active",
+				"activeItemAddModal"
+			],
+			[
+				"acti",
+				"activeItemAddModal"
+			],
+			[
+				"act",
+				"activeItemAddModal"
+			],
+			[
+				"unsetAt",
+				"unsetActiveItemKey"
+			],
+			[
+				"item",
+				"itemAddModalOpen"
+			],
+			[
+				"ProjectAdd",
+				"ProjectAddItemModal"
+			],
+			[
+				"newProje",
+				"newProjectDescription"
+			],
+			[
+				"lo",
+				"long_description"
+			],
+			[
+				"cs",
+				"csrfToken"
+			],
+			[
+				"set",
+				"setCsrfToken"
+			],
+			[
+				"new",
+				"newProjectDescription"
+			],
+			[
+				"Proje",
+				"ProjectAddModal"
+			],
+			[
+				"pro",
+				"projectState"
+			],
+			[
+				"setCur",
+				"setCurrentProjectLevels"
+			],
+			[
+				"se",
+				"setCurrentProject"
+			],
+			[
+				"Single",
+				"SingleProjectView"
+			],
+			[
+				"store",
+				"this.$store.state.userAuth.isAuthenticated"
+			],
+			[
+				"redir",
+				"redirectToAppHome"
+			],
+			[
+				"setC",
+				"setCurrentProjectNotLoaded"
+			],
+			[
+				"Nav",
+				"NavUserImage"
+			],
+			[
+				"Aut",
+				"AuthRegister"
+			],
+			[
+				"setPro",
+				"setProjectData"
+			],
+			[
+				"dispatch",
+				"this.dispatch(\"clearCsrfToken"
+			],
+			[
+				"dispa",
+				"this.dispatch(\"setCsrfToken\").then"
+			],
+			[
+				"varian",
+				"variant-color"
+			],
+			[
+				"do",
+				"doIfAuthenticated"
+			],
+			[
+				"au",
+				"authMixins"
+			],
+			[
+				"requ",
+				"requestData"
+			],
+			[
+				"setai",
+				"setAuthenticated"
+			],
+			[
+				"is",
+				"isAuthenticated"
+			],
+			[
+				"with",
+				"withCredentials"
+			],
+			[
+				"get",
+				"getCSRF"
+			],
+			[
+				"getow",
+				"getOwnPropertyDescriptor"
+			],
+			[
+				"Cur",
+				"currentProjectLevelConfig"
+			],
+			[
+				"or",
+				"originalList"
+			],
+			[
+				"currencon",
+				"currentProjectLevelConfig"
+			],
+			[
+				"deletE",
+				"deleteLevel"
+			],
+			[
+				"cu",
+				"currentProjectLevelConfig"
+			],
+			[
+				"level",
+				"level_config"
+			],
+			[
+				"currlev",
+				"currentProjectLevelConfig"
+			],
+			[
+				"dragg",
+				"draggableList"
+			],
+			[
+				"d",
+				"draggableList"
+			],
+			[
+				"dragab",
+				"draggableList"
+			],
+			[
+				"dra",
+				"draggableList"
+			],
+			[
+				"c",
+				"currentProjectLevelConfig"
+			],
+			[
+				"make",
+				"makeDraggable"
+			],
+			[
+				"getI",
+				"getItemColor"
+			],
+			[
+				"currentProjec",
+				"currentProjectLevelConfig"
+			],
+			[
+				"setAdd",
+				"setAddItemModalClose"
+			],
+			[
+				"ite",
+				"itemTypeChoices"
+			],
+			[
+				"Item",
+				"ItemAddModal"
+			],
+			[
+				"Add",
+				"ItemAddModal"
+			],
+			[
+				"A",
+				"ItemAddModal"
+			],
+			[
+				"currentItem",
+				"currentItemType"
+			],
+			[
+				"Im",
+				"ImpactNodeView"
+			],
+			[
+				"Impac",
+				"ImpactNodeView"
+			],
+			[
+				"style",
+				"<style> css.vue ✌"
+			],
+			[
+				"orig",
+				"originalImpact"
+			],
+			[
+				"origin",
+				"originalImpact"
+			],
+			[
+				"setOutcome",
+				"setOutcomeModalClose"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"resour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"rest",
+				"LSP: Restart Server"
+			],
+			[
+				"lsprest",
+				"LSP: Restart Server"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"resta",
+				"LSP: Restart Server"
+			],
+			[
+				"tabnine",
+				"⌬ tabnine: Open Configuration"
+			],
+			[
+				"termin",
+				"Terminus: Reset"
+			],
+			[
+				"ter",
+				"Terminus: Reset"
+			],
+			[
+				"sync",
+				"Sync Settings: Upload"
+			],
+			[
+				"prett",
+				"JsPrettier: Format Code"
+			],
+			[
+				"packareo",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"reso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"res",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"the",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"term",
+				"Terminus Utilities: Generate User Theme"
+			],
+			[
+				"terminus",
+				"Terminus: Reset"
+			],
+			[
+				"pret",
+				"JsPrettier: Format Code"
+			],
+			[
+				"prettier",
+				"JsPrettier: Format Code"
+			],
+			[
+				"prettie",
+				"JsPrettier: Format Code"
+			],
+			[
+				"pttr",
+				"JsPrettier: Format Code"
+			],
+			[
+				"pretti",
+				"JsPrettier: Format Code"
+			],
+			[
+				"prefor",
+				"JsPrettier: Format Code"
+			],
+			[
+				"openre\t",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"reoso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"remove\t",
+				"Package Control: Remove Package"
+			],
+			[
+				"uplo",
+				"Sync Settings: Upload"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"reou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"reouo",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"colors",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"TodoReview: Open Files"
+			],
+			[
+				"termse",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"enser",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"logpan",
+				"LSP: Toggle Log Panel"
+			],
+			[
+				"lsp log",
+				"LSP: Toggle Log Panel"
+			],
+			[
+				"lsp",
+				"LSP: Previous Diagnostic"
+			],
+			[
+				"enabe",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"afile",
+				"Preferences: A File Icon Settings"
+			],
+			[
+				"syn",
+				"Sync Settings: Upload"
+			],
+			[
+				"reour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"de",
+				"Debugger: Quit"
+			],
+			[
+				"debugg",
+				"Debugger: Open"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"colopick",
+				"Color Picker"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			],
+			[
+				"afi",
+				"Preferences: A File Icon Settings"
+			],
+			[
+				"afle",
+				"Preferences: A File Icon Settings"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"r",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packageresou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"ana",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anac",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"vue",
+				"Preferences: LSP-vue Settings"
+			],
+			[
+				"sub",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"subli",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"eslint",
+				"ESLint Fix: Fix this file"
+			],
+			[
+				"sublimelinter settin",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"toggle",
+				"View: Toggle Menu"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"esl",
+				"ESLint"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"remv",
+				"Package Control: Remove Package"
+			],
+			[
+				"l",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"reosur",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"snippet comp",
+				"Snippet: Vue component"
+			],
+			[
+				"terminu",
+				"Terminus: Reset"
+			],
+			[
+				"run",
+				"Django: Run Server"
+			],
+			[
+				"t",
+				"Terminus: Close All"
+			],
+			[
+				"django html",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"django new",
+				"Django: New App"
+			],
+			[
+				"rsou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"djang",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"django",
+				"Django: New App"
+			],
+			[
+				"dj",
+				"Django: Boilerplate"
+			],
+			[
+				"dja",
+				"Django: Search in Docs"
+			],
+			[
+				"djan",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"shell",
+				"Django: Shell"
+			],
+			[
+				"django: db",
+				"Django: DB Shell"
+			],
+			[
+				"d",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"ru",
+				"Django: Run Server"
+			],
+			[
+				"django ",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"Django:",
+				"Django: Run Server"
+			],
+			[
+				"django set",
+				"Django: Set Project Interpreter"
+			],
+			[
+				"django virtu",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"materi",
+				"Material Theme: Configuration"
+			],
+			[
+				"remoce",
+				"Package Control: Remove Package"
+			],
+			[
+				"th",
+				"UI: Select Theme"
+			],
+			[
+				"mig",
+				"Django: Migrate Database"
+			],
+			[
+				"make",
+				"Django: Make Migration"
+			],
+			[
+				"migr",
+				"Django: Make Migration"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"side",
+				"Side Bar: Refresh"
+			],
+			[
+				"she",
+				"Django: Shell"
+			],
+			[
+				"shel",
+				"Django: Shell"
+			],
+			[
+				"pacak",
+				"Package Control: Upgrade/Overwrite All Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/faaiz/documents/websites/faaizorgv2",
+		"/home/faaiz/documents/websites/faaizorgv2/content",
+		"/home/faaiz/documents/websites/faaizorgv2/content/blog",
+		"/home/faaiz/documents/websites/faaizorgv2/layouts",
+		"/home/faaiz/documents/websites/faaizorgv2/static",
+		"/home/faaiz/documents/websites/faaizorgv2/static/css",
+		"/home/faaiz/documents/websites/faaizorgv2/static/static",
+		"/home/faaiz/documents/websites/faaizorgv2/themes",
+		"/home/faaiz/documents/websites/faaizorgv2/themes/fluency",
+		"/home/faaiz/documents/websites/faaizorgv2/themes/fluency/images",
+		"/home/faaiz/documents/websites/faaizorgv2/themes/fluency/layouts",
+		"/home/faaiz/documents/websites/faaizorgv2/themes/fluency/layouts/partials",
+		"/home/faaiz/documents/websites/faaizorgv2/themes/fluency/static"
+	],
+	"file_history":
+	[
+		"/home/faaiz/documents/websites/faaizwiki/src/index.txt",
+		"/home/faaiz/documents/websites/faaizorgv2/content/blog/second-post.md",
+		"/home/faaiz/documents/websites/faaizorgv2/themes/fluency/layouts/partials/footer.html",
+		"/home/faaiz/documents/websites/faaizorgv2/themes/fluency/layouts/partials/post_metadata.html",
+		"/home/faaiz/documents/websites/faaizorgv2/faaizorgv2.sublime-project",
+		"/home/faaiz/documents/websites/faaizorgv2/themes/fluency/.github/workflows/gh-pages.yml",
+		"/home/faaiz/documents/websites/faaizorgv2/.buildpacks",
+		"/home/faaiz/documents/websites/faaizorgv2/config.toml",
+		"/home/faaiz/documents/websites/faaizorgv2/content/blog/first-post.md",
+		"/home/faaiz/documents/websites/faaizorgv2/.static",
+		"/home/faaiz/documents/websites/faaizorgv2/content/posts/first-post.md",
+		"/home/faaiz/documents/websites/faaizorgv2/nginx.conf.sigil",
+		"/home/faaiz/documents/websites/faaizorgv2/static/CNAME",
+		"/home/faaiz/documents/websites/faaizorgv2/Dockerfile",
+		"/home/faaiz/documents/websites/faaizorgv2/themes/fluency/assets/css/basic.scss",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/base/AuthorizedTemplate.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/team/TeamCurrent.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/project/all/AllProjectsView.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/team/TeamAvailable.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/project/single/SingleProjectView.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/org/OrganizationView.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/team/TeamMemberItemBadge.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/reports/ReportView.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/router/index.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/nav/SectionTabs.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/project/single/children/ProjectIndicators.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/indicators/ProjectItemFlat.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/indicators/ItemLevelHeaderBar.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/store/project.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/project/single/children/ProjectExperimental.vue",
+		"/home/faaiz/.config/sublime-text-3/Packages/Theme - Cyanide/Faaiz-very-dark.sublime-theme",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/ProjectItem.vue",
+		"/home/faaiz/batt-stat.txt",
+		"/home/faaiz/documents/websites/faaizorgv2/themes/fluency/assets/css/main.scss",
+		"/home/faaiz/documents/websites/faaizorgv2/layouts/shortcodes/image-resize.html",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/store/auth.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/settings/ProjectLevelConfig.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/settings/ProjectLevelAdd.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/settings/ProjectLevelItem.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/experimental/ProjectItemNestedDraggable.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/project/single/children/ProjectTeam.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/project/single/children/ProjectSettings.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/team/TeamEditor.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/team/TeamMemberItem.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/settings/ProjectLevelColorPicker.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/team/TeamReporterAddButton.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/team/TeamOwnerAddButton.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/main.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/App.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/common/Notification.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/informe_fe_vue3.sublime-project",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/project/single/children/ProjectLogframe.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/team/TeamMemberAddButtonSet.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/team/TeamMemberActionPanel.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/modals/ProjectAddItemModal.vue",
+		"/home/faaiz/.selected_editor",
+		"/home/faaiz/documents/python/brightspyre-scraper/brightspyrescraper.py",
+		"/home/faaiz/documents/python/brightspyre-scraper/log.txt",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/tabs/TabsSingleProjectView.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/user/UserNoOrgSelected.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/nav/NavIconOrganization.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/user/UserProfile.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/auth/AuthSignedOut.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/common/PageHeading.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/nav/NavIconNotificationWithDropdown.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/tailwind.config.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/nav/NavIconOrganizationWithDropdown.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/package.json",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/config/interop.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/store/user.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/auth/AuthLogin.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/store/index.js",
+		"/home/faaiz/downloads/invite (1).ics",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/auth/AuthSigningOut.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/nav/NavIconNotification.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/project/single/children/ProjectDashboard.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/project/AllProjectsView.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/ProjectAddItemModal.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/TabsSingleProjectView.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/auth/AuthRegister.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/common/LogoAuth.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/common/LogoNav.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/project/ProjectAddModal.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/project/SingleProjectView.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/mixins/AuthMixins.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/node_modules/@headlessui/vue/dist/components/menu/menu.d.ts",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/store/user-auth.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/nav/NavUserImage.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/node_modules/@heroicons/vue/outline/BellIcon.d.ts",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/index.css",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/.eslintrc.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/index.html",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/vite.config.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/babel.config.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/Home2.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/Home.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/base/UnauthorizedTemplate.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/config/api.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/postcss.config.js",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/components/nav/Logo.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe_vue3/src/views/base/PublicTemplate.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe/src/components/ProjectAddModal.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe/src/components/ItemAddModal.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe/package.json",
+		"/home/faaiz/.config/sublime-text-3/Packages/Agila Theme/Agila Neon Monocyanide - Faaiz Ajaz.tmTheme",
+		"/home/faaiz/documents/websites/informe/informe_fe/.notes",
+		"/home/faaiz/documents/websites/informe/informe_fe/notes.notes",
+		"/home/faaiz/documents/websites/informe/informe_fe/src/views/ProjectTreeView.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe/src/services/api.js",
+		"/home/faaiz/documents/websites/informe/informe_be/.gitignore",
+		"/home/faaiz/documents/websites/informe/informe_fe/node_modules/vuex/types/vue.d.ts",
+		"/home/faaiz/documents/websites/informe/informe_fe/src/components/ProjectLevelColorPicker.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe/src/components/LevelEditor.vue",
+		"/media/faaiz/T7/Samsung Portable SSD SW for Android.txt",
+		"/home/faaiz/documents/websites/informe/informe_fe/src/App.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe/.gitignore",
+		"/home/faaiz/documents/websites/informe/informe_fe/old/Outcome.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe/old/ProjectOld.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe/old/ProjectNodeView.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe/src/components/Outcome.vue",
+		"/home/faaiz/documents/websites/informe/informe_fe/src/components/ImpactNodeView.vue",
+		"/home/faaiz/.config/sublime-text-3/Packages/User/TodoReview.sublime-settings",
+		"/home/faaiz/documents/websites/informe/informe_fe/src/components/ImpactNodeView",
+		"/home/faaiz/documents/websites/informe/informe_fe/src/router/index.js",
+		"/home/faaiz/documents/websites/informe/informe_fe/.prettierignore",
+		"/home/faaiz/documents/websites/informe/informe_fe/.eslintrc.js",
+		"/home/faaiz/documents/websites/informe/informe_fe/jsconfig.json",
+		"/home/faaiz/documents/websites/informe/informe_fe/.editorconfig"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 187.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"figcaption",
+			"span"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"file": "themes/fluency/static/favicon.ico",
+					"selected": true,
+					"semi_transient": true,
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "image"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.SublimeLinter":
+	{
+		"height": 116.0
+	},
+	"output.Terminus":
+	{
+		"height": 422.0
+	},
+	"output.diagnostics":
+	{
+		"height": 116.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.language servers":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.references":
+	{
+		"height": 116.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "faaizorgv2.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"run",
+				".virtualenv/mtnpak_env/lib/python3.8/site-packages/django/test/runner.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/documents/websites/opmconsultdb/opmconsultdb.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

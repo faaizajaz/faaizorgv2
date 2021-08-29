@@ -1,0 +1,256 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Faaiz Linux Config - Ubuntu 20.04 on T480s</title>
+	<meta name='Generator' content='Zim 0.73.5'>
+	<style type='text/css'>
+		a          { text-decoration: none      }
+		a:hover    { text-decoration: underline }
+		a:active   { text-decoration: underline }
+		strike     { color: grey                }
+		u          { text-decoration: none;
+					 background-color: yellow   }
+		tt         { color: #2e3436;            }
+		pre        { color: #2e3436;
+					 margin-left: 20px          }
+		h1         { text-decoration: underline;
+					 color: #4e9a06; margin-bottom: 0 }
+		h2         { color: #4e9a06; margin-bottom: 0 }
+		h3         { color: #4e9a06; margin-bottom: 0 }
+		h4         { color: #4e9a06; margin-bottom: 0 }
+		h5         { color: #4e9a06; margin-bottom: 0 }
+		p          { margin-top: 0              }
+		span.zim-tag {
+			color: #ce5c00;
+		}
+		div.zim-object {
+			border-style:solid;
+			border-width:1px;
+		}
+		.checked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8sMEGsKGkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAEBUlEQVRIx62V22tdRRTGf7Nn73P2ybntnNOe3NqkPTGgLTVUUZF6QatSLOKTPgqCIqLgQ0H/A1sQQbBYCBb1QfAxiC8tSO1FqHkwJVKtjdTGNraUmObsc9nXmfGh7cGYpM1D5nHWzPetteZb3wg2eB2YqYm4zSadsMtoboiNBH/3TE0awx6j+MRoxoTg/IYRvP19TQrJS0bzhdHGSyKFkLTtjSKwMjyiEz43ynhtP6bdjBCWyFobAf7eT7VhNF/q1FRbjYjmUohlCVPwnB+6FUxMTJipqSmUUhhjEGKd3bMT4ks/Y6oLBK2Yth8hHYtCJXOix7Nf7xLMzc0xOzvLzp078TyPNE3viW3QJPXzhNWbxFFKHCmMhoLn/FHodd48vGfhapdAacXQlkFK5dL6wIUm6fuTZPuvqDQhaMUYYyiVyuQr6rXDexYuAdi3tSv1ZJNs/R/CaszzT+1na88uXFnCEnJVgivBNN8uTJKmHQI/ptOOcXNZzMz9mOqFs90OHpipWcYwlo5P4ebnuOkrvr5wgrH+h3im7y36MzuwRXYZeKha/OhP0EkadFoxQSdGSotedR/+XwMc2XvKdNUFOFqZx6LKZWIiwjgkikNmLp/hm8sH+K1zjFTHXfBYdTi+eJArzXM0GxFxoBDCopLvo/fqEwi1XPkWkGqjFo2TgB1jOYZUKZTS/D1/ncmLh7jon0IbRWoiTi59ymzzJEEQE3cStNZsGxqlfPE57MBbOR8fP3hDGalOO9fq2DlBvmZw8xa2IxACGn6TydlD/O6f5OzSV/zif0cYhLQaEXGkKBbz7Ov/AOlXV1cxgBJRI3fuSTrpTawt18kWIZN1CFuaONI0w0WOXfsI43YIggh/KUSlhqxrMz74AkOZcWBm9QkH+Gw8NDLuITi+m0yzhluSyJzBLcpblUhFxywSRAEtPwQjsKVN30CNh0uvYuOubSHLtN3J0TO1j0pmBNuFbFWRK0gyPRZpktL2I5JQkclKakNlnh54g6ocvevUr/Ai2a7wineEkcJupA3S1Wg0nVZM2E6wbEF5U5G9Q++wI7sfR7h3N8HVNstykBfzH+KJEZwiWD0aIwxCgJ0R1Mu7GXOeJSuK93bZtQIle4D9pUNU5DC5jEsu55AvZakM5NicGyEj8uuz8bUCQgj67QfY671P3vEoeC69gy695U1U7NG7XV0pUwBjDJa1/JJlWWxzHuflzQe5FJ/GsgUVuZ2t8lEkTvfc0aNHb72flBhjVicQQqCUuvM3/M+WDVguWBrMVdDXEGZlBVEUrVCU9d9s5+fnaTQa2PZyPxEIhJaI1EEoZwX4ncynp6fXrmB4eJjR0VFarRbNZnP9P9rt9gohqNVq1Ov1ZbF/AZGev3hLJ2/zAAAAAElFTkSuQmCC)}
+		.xchecked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8bDYnDxEwAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAEK0lEQVRIx9WVS2hTWRjHf/eR3CY1nbxMH2YiZRQS6qO13YlMVxY3SnVcuNIBFezGpSADLoQqLu1sHJCqdCFSXFpw4YOCSH3BtFqttTNamabX3DS5bfO6uffMoglja3RGcDMHzuac7/z/53++//cd+L8P6VuCPQYZ8ADNgBd4J31DcDcQs+GnHByRocEDv0kfBSjAOlYCs11Q+gpwDegS8LMJ+3QIK0ATzEhV8Odnz5bzw8P4dJ25aJQ/WlvJ1df/K7hSLtOcTNI+Pk69rpMTgqIQhCDvh1/VSpw79+gRrRMTmLZNezLJJsPg+a5dmOEwQlFqg1sWG16/Jv7sGWXDwBACFQjC9HcwIMONKkGp4PGAJGEDS0IQmZlhnWnye3c3eiyGo6qr3WHbrJ+dJf7gAXI6zSIr72T7/fgzmT4FHnTBsgrQBfYvTU0km5vxz86iADnAm0rRPTWFt7cXZccOJJcLAGHb2K9ekT93jmwmwwdAAFpjI6Ntbfxw5879ag7l6o1sr5eHHR3IsRgeQK/M4sQE+YEB7JcvEY6zAj45SWFgAPPxYwzHoQxIkQjTPT0kIxE+Noj8sexFn4/xnh58iQTeSpHkHAdrbIzi0BCOrmNPTpK/eJHM3bt8sCyKQCiR4NWePWSiUZw1+ZLXJm4pFKLhzBlCsRh2RUXacVgeGaF47RrL58+zcP8+RrmMkCQinZ1EL1zAjERqmkH+tLYl1G3bCJw4QUjT0IA0MJfLMX/5MqmHD0nZNiUgtGULG/r7ccXjINWuWbnmqsuFu7sb/4EDNLlcBIEioNs2KUAFGmMxmk6dQm1tRZI+3xBqEkiShBQOox05Ql1nJ26gvuIUAWiKQnj/ftStW5Fk+YuF+NldsbBA4cYN9KdPmaso8Fc62ZJtk7l1C2t0FGdxESHE1xE4hkHh6lX0oSHSpRIewC/LrPf7CSgKNpCamkI/fZr8pUuIZBIcpyaBunahPp1mub+fDyMjGKUSChCsq6Nh717q9u2jbnSU0uAgRrFIwTThyhUCqRS+hgZKLS1fJvDm87SNjZGcnsYUAjcQ8vsJ9/Xh7u1FDgRQN20iks3iDA+zZFmYhQLqzZtsj8WY3L0baY2Sf55ICCKpFHUzM2SEQAJCHg+hY8fQDh5EDgRWDoRC1J88SePRo2geD0XAcBy8b98Sv3ePYDZbbf2rFQjLIphMsmDbaEBQVQkePox26BCSz7e6i4bDrDt+nGYhmBscpFAskheC4Js3bPR4qHphFYEnlcI7P4/jdqNpGu8TCe4oCsXr1z//F2ga3+/cSfTJE0qmSVYIsKzaOZDcbjKyzFIiwfvt21kMBLA07YsetzWNd+3tLLW0sH5igvT8PH9Go/z44kX+E4LGjg7GDYOcy4XlOEgLC//5P/5LCFzxOPLmzWyIx+m6fduu7v0NVGqyTSycKksAAAAASUVORK5CYII=)}
+		.unchecked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8qAt8h3m8AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAA60lEQVRIx+2VsQqDMBRF70sCLg5OLoKgjk7+lJ/hh+STXBwcnRz8ArMEkrxOFktbaC3tULzTg5e8k5vADXDq70VbobXmvu/hvQczg4heHrJfXxQFuq67blZbMc8zpmlCXddIkgTOuZcBUko45zCOI6y1Nz2xFSEEZFmGOI7fGg4A3nsQEZqmuXOu9jallACAtm3fvmutNaIoAjM/dkBECCF89KCbk4eAb+kEnIAT8EsAM0OIz3hSyrssUvss8t5fg+uIrLXPs0gIgWVZYIyBUurQyYdheO4gz3NUVQVjDNZ1PfSjpWmKsixvehfB9GBZ3NndrgAAAABJRU5ErkJggg==)}
+		.migrated-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB+AKHREFA8vJSnkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAC1klEQVRIx+2VT0hUURTGf/e958w4Tc3TYowMw1GyEgwr1MqsFmbZIrIWQZsWJUjbdoHQpl3Qps0swnCRECQFYkR/TC1iKkqmfzAKTo2Vf8hoRsfR995tkRMT87RRWkUHHhy495zvnvvu933wP/75EKkkEAjIYDCIaZpIKRFCZN0kfX9xcTGtra2/irVUEolECIfDlJeXo+s6hmFkDaCqKoZhEAqFSCaTv60pqcSyLAoLC/F4PEtqDmCaJkIIKisrMybX0sdUVRWA5ubmPzdNjjI1cpXkZC/O1fV03PXgdDqRUtpPIITAsqxsDz0Z/3CZQv8uqo4N4C8/Tp2/DdM0MiZQlvk41OTkI/LW1SGtCVb5drD3eCc71wcA+VcAHA5vDd8+3UGakxiJV7i9pdQevU5T1R35pJ3MV5QW1pf+0kWBheJ2SWua8EQXZXsu4fVVYEz1sEKvof5EuxjoPvzpcRvrdp9C2gGMx6cpOHBmbImMesds7BZubwMVDTfXDnQ3vQfK7AC8wLfExMX5whyQc3q2OEnjGm5vE76SQxsfBLr77a7CNf+n0r/l6sSMtsBSnurckiIILCobAtVZhpF4gZF4jubaymj4Ch/fd380LE7bAnjc0NPxk2yqpmEuwGxF0ag+0k5uTpzZeBeaazvj0We8fXojainsb2xh2BZgbe0gSIllzSIUh63wfQ6dZ/O2fbjcKlOj58jJ3cVENESw5yErc9nf2MLQ4jwQAkV1Lqiq37/cZ9WaahJjF9AcmxiPDhLs7ePe23oOnmUwg2hSShQle96tKDjA2HAniusgo9FxnvY9Jxw7RWzGYy92QghM00x5g53qp9sHmtB58/o2umOI2NwGolMnMYUHIb7aAyiKwsjICLqu2/qBEIKUUAohMaSHSLyBSMoPTINQ6CX5+fn2AEVFRZSUlBCPx4nFYhl3L4RESjF/GEgX3pSj+Xw+/H7/b3U/AEOZFnp7O5+5AAAAAElFTkSuQmCC)}
+		ul {list-style-image: none}
+		/* ul rule needed to reset style for sub-bullets */
+	</style>
+</head>
+<body>
+
+<!-- Wiki content -->
+
+	<h1>Faaiz Linux Config - Ubuntu 20.04 on T480s</h1>
+
+<p>
+Tags: <span class="zim-tag">@linux</span> <span class="zim-tag">@ubuntu</span> <span class="zim-tag">@zsh</span> <span class="zim-tag">@themes</span> <span class="zim-tag">@sublime</span> <span class="zim-tag">@plugins</span> <span class="zim-tag">@service</span> <span class="zim-tag">@systemd</span> <span class="zim-tag">@throttle</span> <span class="zim-tag">@undervolt</span> 
+</p>
+
+<h2>Gnome Tweaks</h2>
+
+<p>
+Generally, Gnome tweak settings are backed up to home folder. So if you reinstall just the root partition, your tweaks will be mostly preserved except for themes, which are automatically set as soon as you install them. Alternatively, install themes, icons, and fonts in your home folder (create folders <tt>.themes</tt>, <tt>.icons</tt>, <tt>.fonts</tt> in your home folder and Ubuntu will automatically see them).
+</p>
+
+<p>
+<i><b><u>I have done this, so as long as my home folder is backed up, I should not need to mess with these settings.</u></b></i>
+</p>
+
+<p>
+I use the following themes:
+</p>
+
+<p>
+<ul style='padding-left: 60pt'>
+<li>Applications	Material Black Blueberry 3.36</li>
+<li>Cursor			DMZ White</li>
+<li>Icons			Papirus Dark</li>
+<li>Shell			Material Black Blueberry 3.36</li>
+<li>Fonts:
+<ul>
+<li>Interface		Roboto Bold 11</li>
+<li>Document		Roboto Regular 11</li>
+<li>Monospace	Roboto Mono for Powerline Regular 11</li>
+<li>Legacy 		Roboto Bold 11</li>
+</ul></li>
+</ul>
+</p>
+
+<h2>Gnome Extensions</h2>
+
+<p>
+I use the following extensions. Extensions with a <tt>[*]</tt> have already been backed up using their native settings export feature.<br>
+<ul style='padding-left: 30pt'>
+<li>Blyr</li>
+<li>Circular Battery indicator</li>
+<li>CPU Power Manager</li>
+<li>Dash to Panel <tt>[*]</tt> backed up to dotfiles repo on github</li>
+<li>Freon</li>
+<li>Impatience <tt>set to 0.5</tt></li>
+<li>Multi Monitors Add-On <tt>all things unchecked</tt></li>
+<li>Prime indicator</li>
+<li>Remove Dropdown Arrows</li>
+<li>Show apps top panel</li>
+<li>user themes</li>
+<li>Ubunutu Appindicators <tt>built-in</tt></li>
+</ul>
+</p>
+
+<h2>Desktop</h2>
+
+<p>
+I use Nemo as my default file manager: &gt; <tt>sudo apt install nemo</tt><br>
+Then, configure Nemo to be the default file manager: &gt; <tt>xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search</tt><br>
+Finally, tell Nemo to handle the desktop icons:<br>
+&gt; <tt>gsettings set org.gnome.desktop.background show-desktop-icons false</tt><br>
+&gt; <tt>gsettings set org.nemo.desktop show-desktop-icons true</tt>
+</p>
+
+<p>
+Also remember to add <tt>nemo-desktop</tt> to your list of startup apps<br>
+Check if Nemo is defalt by doing: &gt; <tt>xdg-open $HOME</tt>
+</p>
+
+<h2>Terminal</h2>
+
+<p>
+I use <tt>Tilix</tt> with <tt>zsh</tt> and use <tt>oh-my-zsh</tt> as the theming framework.<br>
+My <tt>zsh</tt> settings are in <a href="./Faaiz_Linux_Config/.zshrc" title="./.zshrc" class="file">./.zshrc</a> which is usually stored in <tt>~/.zshrc</tt><br>
+My theme is a custom theme that should be added to <tt>~/.oh-my-zsh/themes/</tt>. The theme file is <a href="./Faaiz_Linux_Config/faaiz-zsh-theme.zsh-theme." title="./faaiz-zsh-theme.zsh-theme." class="file">./faaiz-zsh-theme.zsh-theme.</a> <br>
+I have also updated the <tt>virtualenv_prompt_info</tt> function in <tt>~/.oh-my-zsh/plugins/virtualenv/virtualenv.plugin.zsh.</tt> The modified file is here: <a href="./Faaiz_Linux_Config/virtualenv.plugin.zsh" title="./virtualenv.plugin.zsh" class="file">./virtualenv.plugin.zsh</a><br>
+For plugins, I use <tt>colored-man-pages</tt>, <tt>git</tt>, <tt>virtualenv</tt>, <tt>django</tt>, <tt>zsh-autosuggestions</tt>
+</p>
+
+<h2>SublimeText</h2>
+
+<p>
+Sublime settings are synced using the <tt>Sync Settings</tt> package. The backup is uploaded to my GitHub. However, just in case, these are the packages used:
+</p>
+
+<p>
+<ul>
+<li>UI Theme: <tt>Cyanide</tt></li>
+<li>Color Scheme: <tt>Chromodynamics</tt></li>
+<li><tt>Anaconda</tt></li>
+<li><tt>ColorHints</tt></li>
+<li><tt>Djaneiro</tt></li>
+<li><tt>Git</tt></li>
+<li><tt>Django</tt></li>
+<li><tt>MagicPython</tt></li>
+<li><tt>Python3</tt></li>
+<li><tt>Terminus</tt></li>
+</ul>
+</p>
+
+<h2>Fix wake from sleep problem</h2>
+
+<p>
+[ <i>See also: <a href="./CreatingServicesWithSystemD.html" title="Creating services with systemd" class="page">Creating services with systemd</a> </i>]
+</p>
+
+<p>
+First, you need to do &gt; <tt>cat /proc/acpi/wakeup </tt>and find the codes for all the ones that are enabled (except power button). Then, for each one you want to disable, create a command in the service file. See the existing service file for command syntax. The 3 character codes  are what you need to change.
+</p>
+
+<p>
+Here is my service file: <a href="./Faaiz_Linux_Config/disable-xhc-wakeup.service" title="./disable-xhc-wakeup.service" class="file">./disable-xhc-wakeup.service</a><br>
+Then, copy to <tt>/etc/systemd/system</tt><br>
+Then, give the service correct permissions &gt; <tt>sudo chmod 644 /etc/systemd/system/disable-xhc-wakeup.service</tt><br>
+Start the service by &gt; <tt>sudo systemctl start disable-xhc-wakeup</tt><br>
+Enable it to run at boot &gt; <tt>sudo systemctl enable disable-xhc-wakeup</tt><br>
+Check status by &gt; <tt>sudo systemctl status disable-xhc-wakeup</tt>
+</p>
+
+<h2>Power settings</h2>
+
+<p>
+<ol type="1" start="1">
+<li>Install TLP:
+<ol type="a" start="1">
+<li>&gt; <tt>sudo apt install tlp</tt></li>
+<li>then run &gt; <tt>tlp-stat -b</tt></li>
+<li>depending on output of above, <tt>apt install</tt> either <tt>acpi-call-dkms</tt> or <tt>tp-smapi-dkms</tt></li>
+</ol>
+</li>
+<li>Install powertop</li>
+<li>Fix the login screen date/time (if in Urdu):
+<ol type="a" start="1">
+<li>&gt; <tt>sudo update-locale LC_TIME=en_US.UTF-8</tt></li>
+</ol>
+</li>
+<li>Install <tt>lenovo-throttling-fix</tt> from Github
+<ol type="a" start="1">
+<li>Make sure <tt>thermald</tt> isn't fucking up
+<ol type="1" start="1">
+<li>&gt; <tt>sudo systemctl stop thermald.service</tt></li>
+<li>&gt; <tt>sudo systemctl disable thermald.service</tt></li>
+<li>&gt; <tt>sudo systemctl mask thermald.service</tt></li>
+</ol>
+</li>
+<li>Then go to <tt>/etc/lenovo_fix.conf</tt>
+<ol type="1" start="1">
+<li><tt>CORE -90</tt></li>
+<li><tt>GPU -40</tt></li>
+<li><tt>CACHE -90</tt></li>
+</ol>
+</li>
+<li>Check if it is running by:
+<ol type="1" start="1">
+<li>&gt; <tt>cd ~/Tools/lenovo-throttling-fix</tt></li>
+<li>&gt; <tt>./lenovo_fix.py --monitor</tt></li>
+</ol></li>
+</ol></li>
+</ol>
+</p>
+
+<h2>Getting trackpad gestures working</h2>
+
+<p>
+Install <tt>libinput-gestures</tt> - <a href="https://github.com/bulletmark/libinput-gestures" title="https://github.com/bulletmark/libinput-gestures" class="https">https://github.com/bulletmark/libinput-gestures</a><br>
+Install the gestures GUI - <a href="https://gitlab.com/cunidev/gestures" title="https://gitlab.com/cunidev/gestures" class="https">https://gitlab.com/cunidev/gestures</a>
+</p>
+
+<p>
+<b><u>USE THIS BACKED UP GESTURES CONF FILE</u>: <a href="./Faaiz_Linux_Config/Gestures.conf" title="./Gestures.conf" class="file">./Gestures.conf</a></b>
+</p>
+
+<h2>Thunderbolt Dock</h2>
+
+<p>
+To default to onboard audio (not thunderbolt output):<br>
+<ol type="1" start="1">
+<li>Run <tt>pactl list short sinks</tt> </li>
+<li>The name of the onboard device is something like: <tt>alsa_output.pci-0000_00_1f.3.analog-stereo</tt> </li>
+<li>Then add a startup command: <tt>pactl set-default-sink alsa_output.pci-0000_00_1f.3.analog-stereo</tt> </li>
+<li>Add a 10 sec delay if you want</li>
+</ol>
+</p>
+
+<h2>Backing up installed programs</h2>
+
+<div class="zim-object">
+<pre><code class="sh"># Create backup list
+
+$ apt list --manual-installed | sed -E 's|([^/]+).*|\1|' &gt; my_package_list.txt
+
+# THen, restore by
+
+$ sudo apt -y install $(&lt;my_package_list.txt)
+</code></pre>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<!-- End wiki content -->
+
+</body>
+
+</html>

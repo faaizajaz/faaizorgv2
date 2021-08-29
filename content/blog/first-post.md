@@ -1,0 +1,57 @@
+---
+title: "Deferring obsolescence with hot plastic"
+date: 2021-08-24T15:02:55+05:00
+draft: false
+---
+
+In December 2020, as an early birthday present and for the sake of keeping my sanity during Pakistan’s semi-lockdown, I bought myself a 3D printer. I typically prefer to repair and reuse rather than discard things (maybe to a fault), and thought it would be a useful—if not fun—tool to have in my arsenal. That and I am not wealthy enough to buy a CNC mill just yet.
+
+# The problem
+
+Recently, my dad—who owns more ties than anybody else I know and shares my enthusiasm for all things mechanical—asked me to see if I could print a part to fix his closet-mounted motorized tie-rack. The slot-in bracket for mounting the assembly to a closet rod had broken, no doubt from years of spirited tie-wearing. The challenge was to reverse engineer the part from its pieces, and create a printable 3D model to send to the printer.
+
+![broken part](/static/p1-broken.jpg#center "The broken part")
+<figcaption class="caption">The broken part + a preview of what's to come.</figcaption>
+
+After an initial examination, it was clear that while the geometry was simple enough, the structural nature of the part would pose some challenges, mostly related to the intrinsic limitations of FDM printing—more on this later. First, the part is entirely structural, supporting the weight of the mechanical rotating assembly and several dozen ties. Second, the entirety the weight is supported on 5 tiny plastic hooks (visible in the picture above), several of which had already snapped off before the final catastrophic failure.
+
+# The solution
+To start, I decided to first model the part and worry about the structural concerns later on, and so I went to work, meticulously measuring the dimensions with a cheap set of digital calipers and making a rough sketch of all the features. All of this fit on a single 3x5 inch index card, which you can see below. The whole process was HIGHLY scientific.
+
+Once this was done, I moved on to modeling the part in OnShape. This was fairly straightforward, and you can see the steps in the gallery below. I won’t go into too much detail on how this was done as the pictures should be self-explanatory. The whole process of measuring and modeling took me about an hour.
+
+![broken part](/static/p1-onshape.jpg#center "New part in OnShape")
+<figcaption class="caption">The part measured and modeled.</figcaption>
+
+With the model complete, it was time to ignore the voice in my head reminding me of the crucial problems I had yet to solve. I threw the model into Cura, oriented it in a way that would minimize support material, and hit print. The whole print took around 4 hours to complete at a 0.2mm layer height. I had previously decided on PETG as the most suitable material for the print due to its tendency to flex before failing (as opposed to PLA which in my experience will shatter pretty immediately, and does not stand up well to continuous loads). Ideally, I would have printed this in Nylon, but my printer is not set up for that at the moment.
+
+![broken part](/static/p1-printed.jpg#center "Printing in progress")
+<figcaption class="caption">Halfway through printing. This took about 3 hours to print.</figcaption>
+
+Overall both the model and the print were excellent. I checked the print against the original part and was within a 0.2mm margin of error in all dimensions—a great start! However, keen observers will have already noticed the fatal flaw that I alluded to earlier: the layers of the printed part are perpendicular to the direction of load. I knew as soon as I pulled the part off the bed that this was not going to work.
+
+![broken part](/static/p1-installed.jpg#center "Installed in the tie-rack.")
+<figcaption class="caption">Test fitting. It works!</figcaption>
+
+Still, for test fitting and aspirational purposes, I tried connecting the part to the assembly. The fit of the printed part was perfect, and in theory, this design would be suitable if I could solve the structural issues with the part under load. As expected, the hooks started to fail one by one once the tie-rack was about half loaded. Back to the drawing board.
+
+# The solution: redux
+
+For V2 I considered a few options that would allow me to avoid going back into CAD and remodeling the part. Since the weakness of the hooks was a direct result of the print orientation, I toyed with printing the whole thing vertically but this would simply replace tensile stress with shear stress along the layer lines at the tips of the hook. Printing the part on its long side would orient the layer lines in the optimal way, but that would put me in support-hell, as one entire wall, one set of hooks, and the retention nut holes would all require supports to print.
+
+Clearly adjusting print orientation was not going to work, so I got creative: first, I went back to OnShape and split the model into two parts vertically down the middle. Then, I added three appendages (I think that’s the technical term) along the bottom plane of the part with countersunk through-holes for M3 nuts and screws. I intended to print the part in two pieces, each piece with the long side down on the build plate. This would allow me to print the hook portions with several continuous walls rather than building them up layer by layer. Splitting the model in two also allowed me to forego supports for the fit-essential sections, using only minimal supports for the mounting holes, and for the screw holes to connect the two parts together
+
+![broken part](/static/p1-v2printing.jpg#center "V2 in the works.")
+<figcaption class="caption">Printing version 2. You can see how I achieved the desired layer orientation here.</figcaption>
+
+This approach worked, and after cleaning up a bit of stringing due to the supports (which I did not need to do as the supported parts did not need to be so dimensionally precise) I joined the two parts together with three 15 mm M3 screws. The two parts fit together well enough that it was hard to discern the seam line between them—a good result in my opinion.
+
+Thankfully, I did not need to go back to make a V3, as this part fit the original assembly perfectly, and is currently supporting the weight of some 60 ties of various shapes and sizes in a closet at my parents’ house. I am confident that this will not require a replacement.
+
+Here’s to hoping ties don’t go out of fashion any time soon.
+
+And of course, the finished product:
+
+![broken part](/static/p1-v2finished.jpg#center "The finished product")
+
+

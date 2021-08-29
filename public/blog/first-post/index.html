@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html
+ lang="en-us"
+  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
+>
+  
+
+
+
+
+
+<head lang="en-us">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="In December 2020, as an early birthday present and for the sake of keeping my sanity during Pakistan’s semi-lockdown, I bought myself a 3D printer. I typically prefer to repair and reuse rather than discard things (maybe to a fault), and thought it would be a useful—if not fun—tool to have in my arsenal. That and I am not wealthy enough to buy a CNC mill just yet.
+The problem Recently, my dad—who owns more ties than anybody else I know and shares my enthusiasm for all things mechanical—asked me to see if I could print a part to fix his closet-mounted motorized tie-rack." />
+  <meta name="author" content="">
+  <meta name="keywords" content="115, 116, 114, 105, 110, 103, 91, 93">
+  <title>Deferring obsolescence with hot plastic | Faaiz Ajaz</title>
+  <link rel="canonical" href="../../blog/first-post/" />
+  
+
+  
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="In December 2020, as an early birthday present and for the sake of keeping my sanity during Pakistan’s semi-lockdown, I bought myself a 3D printer. I typically prefer to repair and reuse rather than discard things (maybe to a fault), and thought it would be a useful—if not fun—tool to have in my arsenal. That and I am not wealthy enough to buy a CNC mill just yet.
+The problem Recently, my dad—who owns more ties than anybody else I know and shares my enthusiasm for all things mechanical—asked me to see if I could print a part to fix his closet-mounted motorized tie-rack." />
+  <meta property="og:title" content="Deferring obsolescence with hot plastic" />
+  <meta property="og:site_name" content="Faaiz Ajaz" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:url" content="/blog/first-post/" />
+  <meta property="og:locale" content="en-us" />
+
+  
+    <meta property="article:published_time" content="2021-08-24" />
+    <meta property="article:modified_time" content="2021-08-24" />
+    
+  
+
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Deferring obsolescence with hot plastic | Faaiz Ajaz" />
+  <meta name="twitter:description" content="In December 2020, as an early birthday present and for the sake of keeping my sanity during Pakistan’s semi-lockdown, I bought myself a 3D printer. I typically prefer to repair and reuse rather than discard things (maybe to a fault), and thought it would be a useful—if not fun—tool to have in my arsenal. That and I am not wealthy enough to buy a CNC mill just yet.
+The problem Recently, my dad—who owns more ties than anybody else I know and shares my enthusiasm for all things mechanical—asked me to see if I could print a part to fix his closet-mounted motorized tie-rack." />
+  <meta name="twitter:domain" content="/blog/first-post/" />
+
+  
+  
+  
+  
+  
+
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css">
+
+  
+  
+  
+
+  
+
+  
+    
+    <link rel="stylesheet" href="../../style.min.da23d338a53935230dc581d5eab096a8eda4212d81a03e6f155a19b38d58a55c.css" integrity="sha256-2iPTOKU5NSMNxYHV6rCWqO2kIS2BoD5vFVoZs41YpVw=" rel="preload stylesheet" as="style"/>
+  
+
+  
+  
+    
+  
+</head>
+
+  <body>
+    <script>
+  const currentTheme = window.localStorage.getItem('theme')
+  if (currentTheme === "dark") {
+    document.body.classList.toggle("theme-dark");
+  } else if (currentTheme == "light") {
+    document.body.classList.toggle("theme-light");
+  }
+</script>
+<header id="header">
+  <div class="row">
+    <div class="container has-padding nav">
+      <button id="navbar-toggler" class="navbar-button" aria-hidden="true">
+
+
+
+
+
+
+
+
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M64 384h384v-42.67H64zm0-106.67h384v-42.66H64zM64 128v42.67h384V128z'/></svg>
+
+
+
+
+
+</button>
+      <div class="navbar-brand">
+        <a class="logo navbar-button" href="" title="Faaiz Ajaz">
+          <span>Faaiz Ajaz</span>
+        </a>
+      </div>
+      <nav class="navbar" role="navigation">
+        <ul>
+          
+          
+            <li class="nav-bar-item">
+              <a class="nav-link navbar-button" href="../../" title="about">
+                <span>about</span>
+              </a>
+            </li>
+          
+            <li class="nav-bar-item active">
+              <a class="nav-link navbar-button" href="../../blog/" title="blog">
+                <span>blog</span>
+              </a>
+            </li>
+          
+            <li class="nav-bar-item">
+              <a class="nav-link navbar-button" href="../../wiki/" title="wiki">
+                <span>wiki</span>
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+      <div class="theme-selector">
+        <button class="button is-text" id="theme-selector-button" title="toggle theme">
+          <span class="label icon">
+
+
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M256 32C132.29 32 32 132.29 32 256s100.29 224 224 224 224-100.29 224-224S379.71 32 256 32zM128.72 383.28A180 180 0 01256 76v360a178.82 178.82 0 01-127.28-52.72z'/></svg>
+
+
+
+
+
+
+
+
+
+
+
+</span>
+        </button>
+      </div>
+    </div>
+    <div class="container has-padding">
+      <div class="breadcrumb">
+        
+<ol  class="breadcrumb-nav">
+  
+
+  
+
+  
+
+<li >
+  <a href="../../">Home</a>
+</li>
+
+
+<li >
+  <a href="../../blog/">Blogs</a>
+</li>
+
+
+<li class="active">
+  <a href="../../blog/first-post/">Deferring obsolescence with hot plastic</a>
+</li>
+
+</ol>
+
+
+
+
+      </div>
+    </div>
+  </div>
+</header>
+
+    
+
+<main id="main">
+  <div class="container has-padding">
+    <div class="article-card post single">
+      <h1 class="title">Deferring obsolescence with hot plastic</h1>
+      <div class="post-info">
+        <span>
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M32 456a24 24 0 0024 24h400a24 24 0 0024-24V176H32zm320-244a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zM456 64h-55.92V32h-48v32H159.92V32h-48v32H56a23.8 23.8 0 00-24 23.77V144h448V87.77A23.8 23.8 0 00456 64z'/></svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<time datetime=2021-08-24T15:02:55&#43;0500 class="date">August 24, 2021</time></span>
+        <span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M256 48C141.13 48 48 141.13 48 256c0 114.69 93.32 208 208 208 114.86 0 208-93.14 208-208 0-114.69-93.31-208-208-208zm108 240H244a4 4 0 01-4-4V116a4 4 0 014-4h24a4 4 0 014 4v140h92a4 4 0 014 4v24a4 4 0 01-4 4z'/></svg>
+5 mins to read</span>
+        
+        
+        
+          <span>blog </span>
+        
+      </div>
+      <article class="post-entry content">
+        <p>In December 2020, as an early birthday present and for the sake of keeping my sanity during Pakistan’s semi-lockdown, I bought myself a 3D printer. I typically prefer to repair and reuse rather than discard things (maybe to a fault), and thought it would be a useful—if not fun—tool to have in my arsenal. That and I am not wealthy enough to buy a CNC mill just yet.</p>
+<h1 id="the-problem">The problem</h1>
+<p>Recently, my dad—who owns more ties than anybody else I know and shares my enthusiasm for all things mechanical—asked me to see if I could print a part to fix his closet-mounted motorized tie-rack. The slot-in bracket for mounting the assembly to a closet rod had broken, no doubt from years of spirited tie-wearing. The challenge was to reverse engineer the part from its pieces, and create a printable 3D model to send to the printer.</p>
+<p><img src="../../static/p1-broken.jpg#center" alt="broken part" title="The broken part"></p>
+<figcaption class="caption">The broken part + a preview of what's to come.</figcaption>
+<p>After an initial examination, it was clear that while the geometry was simple enough, the structural nature of the part would pose some challenges, mostly related to the intrinsic limitations of FDM printing—more on this later. First, the part is entirely structural, supporting the weight of the mechanical rotating assembly and several dozen ties. Second, the entirety the weight is supported on 5 tiny plastic hooks (visible in the picture above), several of which had already snapped off before the final catastrophic failure.</p>
+<h1 id="the-solution">The solution</h1>
+<p>To start, I decided to first model the part and worry about the structural concerns later on, and so I went to work, meticulously measuring the dimensions with a cheap set of digital calipers and making a rough sketch of all the features. All of this fit on a single 3x5 inch index card, which you can see below. The whole process was HIGHLY scientific.</p>
+<p>Once this was done, I moved on to modeling the part in OnShape. This was fairly straightforward, and you can see the steps in the gallery below. I won’t go into too much detail on how this was done as the pictures should be self-explanatory. The whole process of measuring and modeling took me about an hour.</p>
+<p><img src="../../static/p1-onshape.jpg#center" alt="broken part" title="New part in OnShape"></p>
+<figcaption class="caption">The part measured and modeled.</figcaption>
+<p>With the model complete, it was time to ignore the voice in my head reminding me of the crucial problems I had yet to solve. I threw the model into Cura, oriented it in a way that would minimize support material, and hit print. The whole print took around 4 hours to complete at a 0.2mm layer height. I had previously decided on PETG as the most suitable material for the print due to its tendency to flex before failing (as opposed to PLA which in my experience will shatter pretty immediately, and does not stand up well to continuous loads). Ideally, I would have printed this in Nylon, but my printer is not set up for that at the moment.</p>
+<p><img src="../../static/p1-printed.jpg#center" alt="broken part" title="Printing in progress"></p>
+<figcaption class="caption">Halfway through printing. This took about 3 hours to print.</figcaption>
+<p>Overall both the model and the print were excellent. I checked the print against the original part and was within a 0.2mm margin of error in all dimensions—a great start! However, keen observers will have already noticed the fatal flaw that I alluded to earlier: the layers of the printed part are perpendicular to the direction of load. I knew as soon as I pulled the part off the bed that this was not going to work.</p>
+<p><img src="../../static/p1-installed.jpg#center" alt="broken part" title="Installed in the tie-rack."></p>
+<figcaption class="caption">Test fitting. It works!</figcaption>
+<p>Still, for test fitting and aspirational purposes, I tried connecting the part to the assembly. The fit of the printed part was perfect, and in theory, this design would be suitable if I could solve the structural issues with the part under load. As expected, the hooks started to fail one by one once the tie-rack was about half loaded. Back to the drawing board.</p>
+<h1 id="the-solution-redux">The solution: redux</h1>
+<p>For V2 I considered a few options that would allow me to avoid going back into CAD and remodeling the part. Since the weakness of the hooks was a direct result of the print orientation, I toyed with printing the whole thing vertically but this would simply replace tensile stress with shear stress along the layer lines at the tips of the hook. Printing the part on its long side would orient the layer lines in the optimal way, but that would put me in support-hell, as one entire wall, one set of hooks, and the retention nut holes would all require supports to print.</p>
+<p>Clearly adjusting print orientation was not going to work, so I got creative: first, I went back to OnShape and split the model into two parts vertically down the middle. Then, I added three appendages (I think that’s the technical term) along the bottom plane of the part with countersunk through-holes for M3 nuts and screws. I intended to print the part in two pieces, each piece with the long side down on the build plate. This would allow me to print the hook portions with several continuous walls rather than building them up layer by layer. Splitting the model in two also allowed me to forego supports for the fit-essential sections, using only minimal supports for the mounting holes, and for the screw holes to connect the two parts together</p>
+<p><img src="../../static/p1-v2printing.jpg#center" alt="broken part" title="V2 in the works."></p>
+<figcaption class="caption">Printing version 2. You can see how I achieved the desired layer orientation here.</figcaption>
+<p>This approach worked, and after cleaning up a bit of stringing due to the supports (which I did not need to do as the supported parts did not need to be so dimensionally precise) I joined the two parts together with three 15 mm M3 screws. The two parts fit together well enough that it was hard to discern the seam line between them—a good result in my opinion.</p>
+<p>Thankfully, I did not need to go back to make a V3, as this part fit the original assembly perfectly, and is currently supporting the weight of some 60 ties of various shapes and sizes in a closet at my parents’ house. I am confident that this will not require a replacement.</p>
+<p>Here’s to hoping ties don’t go out of fashion any time soon.</p>
+<p>And of course, the finished product:</p>
+<p><img src="../../static/p1-v2finished.jpg#center" alt="broken part" title="The finished product"></p>
+
+      </article>
+    </div>
+
+    
+      <div class="meta article-card">
+    <div class="row">
+      <span class="label">
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M32 456a24 24 0 0024 24h400a24 24 0 0024-24V176H32zm320-244a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zM456 64h-55.92V32h-48v32H159.92V32h-48v32H56a23.8 23.8 0 00-24 23.77V144h448V87.77A23.8 23.8 0 00456 64z'/></svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Published At</span><time>2021-08-24 15:02 PKT</time>
+      
+    </div>
+
+    
+
+    
+    
+</div>
+    
+
+    
+
+  </div>
+</main>
+
+    <footer id="footer">
+  <div class="container has-padding is-flex">
+    <ul class="links">
+      
+
+
+    </ul>
+    <div class="copyright">
+       &copy; 2021 Faaiz Ajaz
+      
+    </div>
+  </div>
+</footer>
+
+<script>
+    window.FluencyCopyIcon = '\n\n\n\n\n\n\n\u003csvg xmlns=\u0027http:\/\/www.w3.org\/2000\/svg\u0027 class=\u0027ionicon\u0027 viewBox=\u00270 0 512 512\u0027\u003e\u003crect x=\u0027128\u0027 y=\u0027128\u0027 width=\u0027336\u0027 height=\u0027336\u0027 rx=\u002757\u0027 ry=\u002757\u0027 stroke-linejoin=\u0027round\u0027 class=\u0027ionicon-fill-none ionicon-stroke-width\u0027\/\u003e\u003cpath d=\u0027M383.5 128l.5-24a56.16 56.16 0 00-56-56H112a64.19 64.19 0 00-64 64v216a56.16 56.16 0 0056 56h24\u0027 stroke-linecap=\u0027round\u0027 stroke-linejoin=\u0027round\u0027 class=\u0027ionicon-fill-none ionicon-stroke-width\u0027\/\u003e\u003c\/svg\u003e\n\n\n\n\n\n\n\n\n\n\n'
+</script>
+
+
+<script defer src="../../js/main.min.7685c4d03abca7fd02a772a2e64c7a8aa3a7031024bbab70a17975e8928cb004.js" integrity="sha256-doXE0Dq8p/0Cp3Ki5kx6iqOnAxAku6twoXl16JKMsAQ=" crossorigin="anonymous" async></script>
+
+
+
+<noscript>
+<style type=text/css>#theme-selector-button{display:none}</style>
+</noscript>
+
+
+
+
+  </body>
+</html>
