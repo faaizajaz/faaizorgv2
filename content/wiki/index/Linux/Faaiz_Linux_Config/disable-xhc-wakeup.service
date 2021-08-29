@@ -1,8 +1,0 @@
-[Unit]
-Description=Prevent XHC from waking up from sleep
-
-[Service]
-ExecStart=/bin/bash -c "echo XHC | sudo tee /proc/acpi/wakeup && echo RP09 | sudo tee /proc/acpi/wakeup && echo RP07 | sudo tee /proc/acpi/wakeup && echo RP04 | sudo tee /proc/acpi/wakeup && echo RP01 | sudo tee /proc/acpi/wakeup && echo LID | sudo tee /proc/acpi/wakeup && echo PXSX | sudo tee /proc/acpi/wakeup"
-
-[Install]
-WantedBy=multi-user.target
