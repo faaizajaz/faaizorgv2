@@ -6,13 +6,23 @@
     <description>Recent content in About Faaiz on Faaiz Ajaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Aug 2021 15:02:55 +0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Aug 2021 15:23:55 +0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Deferring obsolescence with hot plastic</title>
-      <link>/blog/first-post/</link>
+      <title>Deploying a Hugo site with Dokku</title>
+      <link>/blog/p2/</link>
+      <pubDate>Mon, 30 Aug 2021 15:23:55 +0500</pubDate>
+      
+      <guid>/blog/p2/</guid>
+      <description>This website was built with Hugo and is hosted on a cheap single-core VPS. The server also hosts a few other sites at any given time that will have built using whatever stack interests me at the time. This use-case makes Dokku (which is a self-hosted alternative to Heroku, with all the magic you&amp;rsquo;d expect) the perfect deployment setup for me.
+It is fairly trivial to configure a webserver to serve a static site, but Dokku has accustomed me to never thinking about server configurations, and I am not willing to put in the hour or so that it would take for me to do that.</description>
+    </item>
+    
+    <item>
+      <title>Saving an old tie-rack from the landfill with 3D printing</title>
+      <link>/blog/p1/</link>
       <pubDate>Tue, 24 Aug 2021 15:02:55 +0500</pubDate>
       
-      <guid>/blog/first-post/</guid>
+      <guid>/blog/p1/</guid>
       <description>In December 2020, as an early birthday present and for the sake of keeping my sanity during Pakistan’s semi-lockdown, I bought myself a 3D printer. I typically prefer to repair and reuse rather than discard things (maybe to a fault), and thought it would be a useful—if not fun—tool to have in my arsenal. That and I am not wealthy enough to buy a CNC mill just yet.
 The problem Recently, my dad—who owns more ties than anybody else I know and shares my enthusiasm for all things mechanical—asked me to see if I could print a part to fix his closet-mounted motorized tie-rack.</description>
     </item>
