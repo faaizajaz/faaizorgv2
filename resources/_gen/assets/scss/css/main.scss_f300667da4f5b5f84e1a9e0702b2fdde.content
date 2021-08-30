@@ -221,6 +221,17 @@
 /* GenericTraceback */
 /* GenericUnderline */
 /* TextWhitespace */
+img[src$='#center'] {
+  display: block !important;
+  margin: 0.7rem auto; }
+
+.caption {
+  font-style: italic;
+  color: gray;
+  display: block;
+  text-align: center;
+  margin: 0.7rem auto; }
+
 :root {
   --header-height: 54px;
   --footer-height: 4rem;
