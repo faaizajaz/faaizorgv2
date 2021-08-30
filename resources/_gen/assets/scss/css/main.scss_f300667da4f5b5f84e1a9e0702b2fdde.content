@@ -223,7 +223,7 @@
 /* TextWhitespace */
 :root {
   --header-height: 54px;
-  --footer-height: 8rem;
+  --footer-height: 4rem;
   --footer-margin-top: 2rem; }
 
 body {
