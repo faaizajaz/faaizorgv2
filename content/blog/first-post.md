@@ -33,7 +33,7 @@ Overall both the model and the print were excellent. I checked the print against
 ![broken part](/static/p1-installed.jpg#center "Installed in the tie-rack.")
 <figcaption class="caption">Test fitting. It works!</figcaption>
 
-Still, for test fitting and aspirational purposes, I tried connecting the part to the assembly. The fit of the printed part was perfect, and in theory, this design would be suitable if I could solve the structural issues with the part under load. As expected, the hooks started to fail one by one once the tie-rack was about half loaded. Back to the drawing board.
+Still, for test fitting and aspirational purposes, I tried connecting the part to the assembly. The fit of the printed part was perfect, and in theory, this design would be suitable if I could solve the structural issues with the part under load. As expected, the hooks started to fail one-by-one once the tie-rack was about half loaded. Back to the drawing board.
 
 # The solution: redux
 
